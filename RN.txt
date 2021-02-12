@@ -1,0 +1,22 @@
+npm install -g expo-cli
+
+expo
+- create-react-app 같은 것 
+- RN을 위한 설정 파일같은 것들이 없는 방식으로, 모든 것이 셋업
+- 만약 RN을 수동으로 작업하고 싶으면 React Native CLI
+
+app.json - expo가 읽게 될 configuration 파일
+
+모바일앱 만드는 법 3가지
+
+1. 완전 native: Swift or objective-c로 ios 앱 만드는 것, Java or 코틀린 가지고 만드는 Android 앱 -> 프로그래밍 언어도 다르고 매우 다르다 (Xcode, Android studio)
+
+2. 앱 기반 웹뷰를 만드는 것 (예-Cordova or PhoneGap 이용해서 그 안에 그냥 HTML,CSS를 넣는 것) 
+앱 안에서 작동하는 웹사이트 같은 것 
+하이브리드 웹뷰 방식 -> natvie 쪽에 많은 예산이 없는 회사들이 사용
+
+3. 가벼운 앱들은 리액트 네이티브로 하기 좋다(3D 비디오 게임 등은 별로)
+
+View -> <div>
+Text -> <span>
+
